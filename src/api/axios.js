@@ -41,7 +41,7 @@ const API_ORIGIN = process.env.REACT_APP_API_URL || "http://localhost:3001";
 
 const instance = axios.create({
   baseURL: `${API_ORIGIN}`, // ✅ important
-  timeout: 15000,
+  timeout: 30000,
   headers: { "Content-Type": "application/json" },
 });
 
